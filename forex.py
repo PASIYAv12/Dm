@@ -14,8 +14,8 @@ logging.basicConfig(
 OANDA_API_KEY = os.getenv("OANDA_API_KEY")
 OANDA_ACCOUNT_ID = os.getenv("OANDA_ACCOUNT_ID")
 OANDA_ENV = os.getenv("OANDA_ENV", "practice")
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-ADMIN_TELEGRAM_ID = os.getenv("ADMIN_TELEGRAM_ID")
+TELEGRAM_TOKEN = os.getenv("AAE29u264oOFf9qH0oBSmjfTKQLSlUu_TUo")
+ADMIN_TELEGRAM_ID = os.getenv("7786434709")
 
 OANDA_URL = f"https://api-fxpractice.oanda.com/v3/accounts/{OANDA_ACCOUNT_ID}"
 
