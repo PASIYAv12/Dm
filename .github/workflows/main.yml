@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m "first commit"
+heroku create my-forex-bot
+heroku config:set OANDA_API_KEY="#IDbc5rf6D3"
+heroku config:set OANDA_ACCOUNT_ID="1600009265"
+heroku config:set TELEGRAM_TOKEN="AAE29u264oOFf9qH0oBSmjfTKQLSlUu_TUo"
+heroku config:set ADMIN_TELEGRAM_ID="7786434709"
+git push heroku master
+heroku ps:scale worker=1
